@@ -1,0 +1,16 @@
+.about__info > img {
+    border-radius: 50px;
+    width: 15%;
+}
+
+.linkedin {
+    color: #0072b1;
+}
+
+.email {
+    width: 24px;
+}
+
+.github {
+    color: black;
+}

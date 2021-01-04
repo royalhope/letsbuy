@@ -1,0 +1,47 @@
+.mobileScreen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://cdn.cp.adobe.io/content/2/dcx/d0342cb5-f718-4262-98f2-6636c6de117e/rendition/preview.jpg/version/2/format/jpg/dimension/width/size/1089");
+  background-size: cover;
+}
+
+.mobileContainer {
+  background-color: red;
+  width: 80%;
+  height: 50vh;
+  margin-top: 30%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mobileHeading h3 {
+  font-size: 1.3rem;
+  margin-top: 40px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.mobileInfo p {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}

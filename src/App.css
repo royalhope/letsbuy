@@ -1,0 +1,23 @@
+.app {
+  background-color: #f1f2f5;
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+}
+
+/* ::-webkit-scrollbar {
+  width: 15px;
+  background-color: orange;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+} */
